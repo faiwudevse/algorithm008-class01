@@ -1,6 +1,9 @@
 class Solution {
+    /*
+    time complexity: O(n)
+    space complexity: O(1)
+    */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        // create two nodes
 
         // prevHead listnode is to return the merged list node 
         ListNode prevHead = new ListNode(-1);
