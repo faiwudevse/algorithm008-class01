@@ -8,7 +8,7 @@ class Solution {
         k %= nums.length;
         int i = 0;
         
-        
+        // 
         for (int start = 0; start < nums.length; start++) {
             int current = start;
             int prevValue = nums[start];
@@ -19,7 +19,6 @@ class Solution {
                 prevValue = temp;
                 current = next;
                 i++;
-
             } while (start != current);
         }
     }
